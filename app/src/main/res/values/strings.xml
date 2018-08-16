@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Prioritizer</string>
+
+    <string name="add_btn">Add more tasks</string>
+    <string name="direction">You need to:</string>
+
+    <string-array name="rating">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array>
+</resources>

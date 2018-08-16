@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+<android.support.constraint.ConstraintLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#0099cc"
+    tools:context="com.darrroxtar.prioritizer.AddTask">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        tools:context="com.darrroxtar.anant.prioritizer.AddTask">
+
+        <TableRow>
+
+            <EditText
+                android:id="@+id/task1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2.4"
+                android:hint="Task"
+                android:textColor="#fff"
+                android:textSize="18sp" />
+
+            <Spinner
+                android:id="@+id/workload1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textAlignment="center"
+                android:entries="@array/rating"
+                android:textColor="#fff"
+                android:textSize="18sp" />
+
+            <EditText
+                android:id="@+id/deadline1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.4"
+                android:hint="Deadline"
+                android:inputType="datetime"
+                android:textColor="#fff"
+                android:textSize="18sp" />
+        </TableRow>
+
+        <TableRow>
+
+            <EditText
+                android:id="@+id/task2"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight=".8"
+                android:hint="Task"
+                android:textColor="#fff"
+                android:textSize="18sp" />
+
+            <Spinner
+                android:id="@+id/workload2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:entries="@array/rating"
+                android:textColor="#fff"
+                android:textSize="18sp" />
+
+            <EditText
+                android:id="@+id/deadline2"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight=".5"
+                android:hint="Deadline"
+                android:inputType="datetime"
+                android:textColor="#fff"
+                android:textSize="18sp" />
+        </TableRow>
+
+        <TableRow>
+
+            <EditText
+                android:id="@+id/task3"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight=".8"
+                android:hint="Task"
+                android:textColor="#fff"
+                android:textSize="18sp" />
+
+
+            <Spinner
+                android:id="@+id/workload3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:entries="@array/rating"
+                android:textColor="#fff"
+                android:textSize="18sp" />
+
+            <EditText
+                android:id="@+id/deadline3"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight=".5"
+                android:hint="Deadline"
+                android:inputType="datetime"
+                android:textColor="#fff"
+                android:textSize="18sp" />
+        </TableRow>
+
+        <TableRow>
+
+            <EditText
+                android:id="@+id/task4"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight=".8"
+                android:hint="Task"
+                android:textColor="#fff"
+                android:textSize="18sp" />
+
+            <Spinner
+                android:id="@+id/workload4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:entries="@array/rating"
+                android:textColor="#fff"
+                android:textSize="18sp" />
+
+
+            <EditText
+                android:id="@+id/deadline4"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight=".5"
+                android:hint="Deadline"
+                android:inputType="datetime"
+                android:textColor="#fff"
+                android:textSize="18sp" />
+        </TableRow>
+
+        <TableRow>
+
+            <EditText
+                android:id="@+id/task5"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight=".8"
+                android:hint="Task"
+                android:textColor="#fff"
+                android:textSize="18sp" />
+
+            <Spinner
+                android:id="@+id/workload5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:entries="@array/rating"
+                android:textColor="#fff"
+                android:textSize="18sp" />
+
+            <EditText
+                android:id="@+id/deadline5"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight=".5"
+                android:hint="Deadline"
+                android:inputType="datetime"
+                android:textColor="#fff"
+                android:textSize="18sp" />
+        </TableRow>
+
+        <TableRow>
+
+            <EditText
+                android:id="@+id/task6"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight=".8"
+                android:hint="Task"
+                android:textColor="#fff"
+                android:textSize="18sp" />
+
+            <Spinner
+                android:id="@+id/workload6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:entries="@array/rating"
+                android:textColor="#fff"
+                android:textSize="18sp" />
+
+
+            <EditText
+                android:id="@+id/deadline6"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight=".5"
+                android:hint="Deadline"
+                android:inputType="datetime"
+                android:textColor="#fff"
+                android:textSize="18sp" />
+        </TableRow>
+    </TableLayout>
+
+    <LinearLayout
+        android:id="@+id/fullscreen_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fitsSystemWindows="true">
+
+        <LinearLayout
+            android:id="@+id/fullscreen_content_controls"
+            style="?metaButtonBarStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|center_horizontal"
+            android:background="@color/black_overlay"
+            android:orientation="horizontal"
+            tools:ignore="UselessParent">
+
+            <Button
+                android:id="@+id/dummy_button"
+                style="?metaButtonBarButtonStyle"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:onClick="fetchTaskDetails"
+                android:text="Add" />
+
+        </LinearLayout>
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>
+</layout>
